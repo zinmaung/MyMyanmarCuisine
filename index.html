@@ -1,0 +1,253 @@
+<!DOCTYPE html> 
+    <html> 
+        <head>
+      <meta charset="UTF-8"/>	
+        <meta name="author" content="Zin Maung">
+        <title>My Myanmar Cuisine</title> 
+
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="custom.css" />
+            <style>
+        img.fullscreen{width:100%;}
+        img.thumbnail{width:60%;}
+    </style>    
+</head> 
+ <body>       
+        <!-- /header --> 
+<div data-role="page" id="home">    
+<header data-role="header" data-position="fixed">
+    <h1>MyMyanmarCuisine</h1>
+        <div data-role="navbar" data-theme="a">
+            <ul>
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#recipes" data-icon="bullets">Recipes</a></li>
+                <li><a href="#video" data-icon="video">Videos</a></li>
+            </ul>
+        </div><!-- /navbar -->
+<!-- HOme Page-->    
+        
+    </header><!-- /header -->  
+    <h1 align="center"> Welcome to MyMyanmarCuisine<img class="thumbnail" src="images/Logo1.png"></h1>
+    
+    
+            <!-- /footer -->    
+    <footer data-role="footer" data-position="fixed">
+        <h6 style="text-align:center;">Copyright &copy; 2017 MyMyanmarCuisine. All Rights Reserved.</h6>
+        <div data-role="navbar">
+        </div><!-- /navbar -->
+    </footer>
+        <!-- /footer -->   
+</div>   
+     
+<!-- Browse Recipes Page -->
+<div data-role="page" id="recipes">
+<article data-role="content">
+    <header data-role="header" data-position="fixed">
+    <h1>Browse Recipes</h1>
+        <div data-role="navbar" data-theme="a">
+            <ul>
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#recipes" data-icon="bullets">Recipes</a></li>
+                <li><a href="#video" data-icon="video">Videos</a></li>
+            </ul>
+        </div>
+    </header>
+<article data-role="content">  
+    
+    <ul data-role="listview" data-filter="true">
+        <li>
+            <a href="#snacks">
+            <h1>Snacks</h1>
+                <img class="thumbnail" src="images/snacks.jpg" alt="Snacks">
+            </a>
+        </li>
+        <li>
+           <a href="#main">
+            <h1>Main Dish</h1>
+                <img class="thumbnail" src="images/shrimp.jpg" alt="Shrmip">
+            </a> 
+        </li>
+        <li>
+           <a href="#soup">
+            <h1>Soups</h1>
+                <img class="thumbnail" src="images/soup.JPG" alt="Kyay Oo">
+            </a> 
+        </li>
+        <li>
+          <a href="#dessert">
+            <h1>Desserts</h1>
+                <img class="thumbnail" src="images/desserts.jpg" alt="Desserts">
+            </a>
+        </li>
+    </ul>
+    </article>  
+</article>
+         <!-- /footer -->    
+    <footer data-role="footer" data-position="fixed">
+        <h6 style="text-align:center;">Copyright &copy; 2017 MyMyanmarCuisine. All Rights Reserved.</h6>
+        <div data-role="navbar">
+        </div><!-- /navbar -->
+    </footer>
+        <!-- /footer -->      
+</div>  
+     
+<!-- Snacks -->  
+ <div data-role="page" id="snacks">
+     <article data-role="content">
+        <header data-role="header" data-role="fixed">
+         <h1>Snacks</h1>
+             <div data-role="navbar" data-theme="a">
+                 <ul>
+                     <li><a href="#recipes" data-icon="back">Back</a></li>
+                     <li><a href="#home" data-icon="home">Home</a></li>
+                     <li><a href="#recipes" data-icon="bars">More</a></li>
+                 </ul>     
+             </div>
+         </header>
+            <header data-role="header">
+                    <h1>Snacks</h1>
+                        <img class="thumbnail" src="images/snacks.jpg" class="fullscreen" alt="snacks"/>
+                <h1>Laphat Thoke</h1>
+                <h1>Ingredients</h1>
+            <ul class="a">  
+                <li>1 cup organic dried green tea leaves, loosely packed</li>
+                <li>1 cup kale, green cabbage or Napa cabbage, finely chopped or shredded</li>
+                <li>½ cup finely chopped cilantro, loosely packed</li>
+                <li>½ cup green onions, finely chopped</li>
+                <li>1 tablespoon garlic paste</li>
+                <li>2 tablespoons finely chopped ginger root</li>
+                <li>2 green chilies, minced (optional)</li>
+                <li>juice squeezed fresh from one lime</li>
+                <li>generous pinch of salt</li>               
+            </ul>                
+            </header>
+     </article>
+  
+          
+     <!-- /footer -->    
+    <footer data-role="footer" data-position="fixed">
+        <h6 style="text-align:center;">Copyright &copy; 2017 MyMyanmarCuisine. All Rights Reserved.</h6>
+        <div data-role="navbar">
+        </div><!-- /navbar -->
+    </footer>
+</div>       
+<!-- Main Dish -->
+ <div data-role="page" id="main">
+     <article data-role="content">
+        <header data-role="header" data-role="fixed">
+         <h1>Main Dish</h1>
+             <div data-role="navbar" data-theme="a">
+                 <ul>
+                     <li><a href="#recipes" data-icon="back">Back</a></li>
+                     <li><a href="#home" data-icon="home">Home</a></li>
+                     <li><a href="#recipes" data-icon="bars">More</a></li>
+                 </ul>     
+             </div>
+         </header>   
+            <header data-role="header">
+                    <h1>Main</h1>
+                        <img class="thumbnail" src="images/shrimp.jpg" class="fullscreen" alt="snacks"/>
+                <h1>Prawns Curry</h1>
+                <h1>Ingredients</h1>
+            <ul class="a">  
+                <li>4-6 prawns</li>
+                <li>1 yellow onion </li>
+                <li>4 garlic cloves</li>
+                <li>ginger</li>
+                <li>1 tablespoon of paprika</li>
+                <li>a dash of tumeric powder</li>
+                <li>5 tablespoons of vegetable oil</li>
+                <li>1/2 teaspoon of salt</li>
+                <li>1 tomato</li>  
+            </ul>                
+            </header>
+     </article>
+      
+<!-- /footer -->    
+    <footer data-role="footer" data-position="fixed">
+        <h6 style="text-align:center;">Copyright &copy; 2017 MyMyanmarCuisine. All Rights Reserved.</h6>
+        <div data-role="navbar">
+        </div><!-- /navbar -->
+    </footer>
+</div>        
+<!-- Soup -->
+ <div data-role="page" id="soup">
+     <article data-role="content">
+        <header data-role="header" data-role="fixed">
+         <h1>Soup</h1>
+             <div data-role="navbar" data-theme="a">
+                 <ul>
+                     <li><a href="#recipes" data-icon="back">Back</a></li>
+                     <li><a href="#home" data-icon="home">Home</a></li>
+                     <li><a href="#recipes" data-icon="bars">More</a></li>
+                 </ul>     
+             </div>
+         </header>   
+            <header data-role="header">
+                    <h1>Soup</h1>
+                        <img class="thumbnail" src="images/soup.JPG" class="fullscreen" alt="snacks"/>
+                <h1>Pork Noodle Hotpot</h1> 
+                    <h1>(Kyay-Oh)</h1>
+                <h1>Ingredients</h1>
+            <ul class="a">  
+                <li>4-6 prawns</li>
+                <li>1 yellow onion </li>
+                <li>4 garlic cloves</li>
+                <li>ginger</li>
+                <li>1 tablespoon of paprika</li>
+                <li>a dash of tumeric powder</li>
+                <li>5 tablespoons of vegetable oil</li>
+                <li>1/2 teaspoon of salt</li>
+                <li>1 tomato</li>  
+            </ul>                
+            </header>
+     </article>
+        
+<!-- /footer -->    
+    <footer data-role="footer" data-position="fixed">
+        <h6 style="text-align:center;">Copyright &copy; 2017 MyMyanmarCuisine. All Rights Reserved.</h6>
+        <div data-role="navbar">
+        </div><!-- /navbar -->
+    </footer>  
+</div>     
+<!-- Dessert -->
+ <div data-role="page" id="dessert">
+     <article data-role="content">
+        <header data-role="header" data-role="fixed">
+         <h1>Dessert</h1>
+             <div data-role="navbar" data-theme="a">
+                 <ul>
+                     <li><a href="#recipes" data-icon="back">Back</a></li>
+                     <li><a href="#home" data-icon="home">Home</a></li>
+                     <li><a href="#recipes" data-icon="bars">More</a></li>
+                 </ul>     
+             </div>
+         </header>   
+            <header data-role="header">
+                    <h1>Dessert</h1>
+                        <img class="thumbnail" src="images/desserts.jpg" class="fullscreen" alt="snacks"/>
+                
+            <h1>Sweet Tapioca</h1>
+                <h1>Ingredients</h1>
+            <ul class="a">  
+                <li>glutinous rice flour – 800 g</li>
+                <li>rice flour – 200 g</li>
+                <li>water</li>                 
+            </ul>                
+            </header>
+     </article>
+         
+<!-- /footer -->    
+    <footer data-role="footer" data-position="fixed">
+        <h6 style="text-align:center;">Copyright &copy; 2017 MyMyanmarCuisine. All Rights Reserved.</h6>
+        <div data-role="navbar">
+        </div><!-- /navbar -->
+    </footer>     
+</div>     
+     
+</body>
+</html>

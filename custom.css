@@ -1,0 +1,20 @@
+h1{
+    font-family: fantasy;
+    display: block;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 300px 50px;
+    
+}
+footer {
+    font-family: monospace;
+    font-style: oblique;
+    font-size: 10px;
+}
+
+ul.a{
+    
+    font-family: "Times New Roman", Times, serif;
+    color: darkslategray;
+}
